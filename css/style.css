@@ -40,19 +40,26 @@ h1.error, h4.error{
 	margin-right: auto;
 }
 
-.subscribe input{
+.subscribe .error input[type="email"]{
 	width: 560px;
   border-width:3px;
+  border-color:#c0392b;
   box-shadow:1px 1px 4px black;
   background:rgba(255,255,255,0.7);
 }
 
-.subscribe input:focus{
+.subscribe .error input[type="email"]:focus{
   background:white;
+  border-color:#e74c3c;
 }
 
-#btn-submit{
+#btn-submit.btn.btn-danger{
 	cursor: pointer;
   box-shadow:1px 1px 4px black;
   font-weight:bold;
+  background-color:#c0392b;
+}
+
+#btn-submit.btn.btn-danger:hover{
+  background-color:#e74c3c;
 }
