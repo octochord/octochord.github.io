@@ -1,35 +1,58 @@
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
-
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
 
 body{
-	background: url("../images/background-landing.png") no-repeat;
-	min-height: 750px;
+	background: url("../images/background-blur.jpg") no-repeat fixed;
 	background-size: 100% 100%;
-	font-family: 'Droid Serif', serif;
+	font-family: 'Bree Serif', serif;
+}
+
+.heading, .heading-thanks{
+  float:none;
+  display:block;
+  width:680px;
 }
 
 .heading{
-	margin-left: 15%;
-	margin-top: 0;
+  margin:120px auto auto auto;
 }
 
-.heading h1, .heading h2{
-	color:rgb(231, 76, 60);
+.heading-thanks{
+  margin:180px auto auto auto;
+}
+
+h1,h2,h4{
+	color:white;
+  text-align:center;
+  text-shadow:1px 1px 4px black;
+}
+
+h1.error, h4.error{
+  color:rgb(231, 76, 60);
+  text-shadow:1px 1px 2px white;
 }
 
 .subscribe{
-	width: 800px;
+	width: 680px;
 	float: none;
-	margin-top: 140px;
+	margin-top: 70px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .subscribe input{
-	width: 400px;
-	margin-left: 200px;
+	width: 560px;
+  border-width:3px;
+  box-shadow:1px 1px 4px black;
+  background:rgba(255,255,255,0.7);
+}
+
+.subscribe input:focus{
+  background:white;
 }
 
 #btn-submit{
 	cursor: pointer;
+  box-shadow:1px 1px 4px black;
+  font-weight:bold;
 }
