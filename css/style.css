@@ -4,7 +4,7 @@
 body{
 	background: url("../images/background-blur.jpg") no-repeat fixed;
 	background-size: 100% 100%;
-	font-family: 'Bree Serif', serif;
+	font-family: 'Bree Serif', Arial;
 }
 
 .heading, .heading-thanks{
@@ -105,6 +105,9 @@ h1,h2,h4{
 }
 
 @media (max-width:340px){
+  body{
+    background: url("../images/background-trim.jpg") no-repeat fixed;
+  }
   .heading{
     margin-top:20px;
   }
