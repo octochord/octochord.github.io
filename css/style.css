@@ -27,11 +27,6 @@ h1,h2,h4{
   text-shadow:1px 1px 4px black;
 }
 
-h1.error, h4.error{
-  color:rgb(231, 76, 60);
-  text-shadow:1px 1px 2px white;
-}
-
 .subscribe{
 	width: 680px;
 	float: none;
@@ -62,4 +57,59 @@ h1.error, h4.error{
 
 #btn-submit.btn.btn-danger:hover{
   background-color:#e74c3c;
+}
+
+@media (max-width:700px){
+  .heading{
+    width:90%;
+  }
+  .subscribe{
+    width:90%;
+  }
+  h1{
+    font-size:26px;
+  }
+  h2{
+    font-size:19px;
+  }
+  .subscribe .error input[type="email"]{
+    width:76%;
+  }
+}
+
+@media (max-width:568px){
+  .heading{
+    margin-top:5%;
+  }
+}
+
+@media (max-width:552px){
+  
+  .subscribe{
+    display:block;
+    position:relative;
+    margin-top:40px;
+  }
+
+  .subscribe .error input[type="email"]{
+    width:94%;
+    margin:auto;
+    float:none;
+    display:block
+  }
+  #btn-submit.btn.btn-danger{
+    width:100%;
+    display:block;
+    margin-top:15px;
+  }
+}
+
+@media (max-width:340px){
+  .heading{
+    margin-top:20px;
+  }
+
+  .subscribe{
+    margin-top:70px;
+  }
 }
