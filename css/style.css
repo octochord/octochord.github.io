@@ -95,7 +95,8 @@ h1,h2,h4{
     width:94%;
     margin:auto;
     float:none;
-    display:block
+    display:block;
+    background:white;
   }
   #btn-submit.btn.btn-danger{
     width:100%;
