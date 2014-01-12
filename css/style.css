@@ -1,10 +1,16 @@
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
-@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+/*@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);*/
 
 body{
-	background: url("../images/background-blur.jpg") no-repeat fixed;
-	background-size: 100% 100%;
-	font-family: 'Bree Serif', Arial;
+	background: url("../images/guitar-girl.jpg") no-repeat fixed;
+	background-size: 100% auto;
+	font-family: 'Lato', Arial;
+  line-height:1.4em;
+}
+
+@font-face{
+  font-family:'Engagement';
+  src: url('../fonts/Engagement-Regular.ttf');
 }
 
 .heading, .heading-thanks{
@@ -14,17 +20,26 @@ body{
 }
 
 .heading{
-  margin:120px auto auto auto;
+  margin:40px auto auto auto;
 }
 
 .heading-thanks{
-  margin:180px auto auto auto;
+  margin:20px auto auto auto;
 }
 
 h1,h2,h4{
 	color:white;
   text-align:center;
-  text-shadow:1px 1px 4px black;
+  text-shadow:0px 2px 2px black;
+}
+
+h1{
+  font-family:'Engagement';
+  font-weight:normal;
+font-size: 86px;
+vertical-align: top;
+transform: rotate(356deg);
+text-shadow: 0px 3px 4px black;
 }
 
 .subscribe{
@@ -39,7 +54,7 @@ h1,h2,h4{
 	width: 560px;
   border-width:3px;
   border-color:#c0392b;
-  box-shadow:1px 1px 4px black;
+  box-shadow:0px 2px 2px black;
   background:rgba(255,255,255,0.7);
 }
 
@@ -50,13 +65,23 @@ h1,h2,h4{
 
 #btn-submit.btn.btn-danger{
 	cursor: pointer;
-  box-shadow:1px 1px 4px black;
+  box-shadow:0px 2px 2px black;
   font-weight:bold;
   background-color:#c0392b;
 }
 
 #btn-submit.btn.btn-danger:hover{
   background-color:#e74c3c;
+}
+
+p{
+font-size: 18px;
+line-height: 1.4em;
+font-weight: bold;
+text-shadow: 0px 2px 3px black;
+text-align: center;
+color:white;
+letter-spacing:1px;
 }
 
 @media (max-width:700px){
